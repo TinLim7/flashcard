@@ -1,0 +1,11 @@
+.next
+out
+node_modules
+tsconfig.tsbuildinfo
+.env.local
+.dev.vars
+.DS_Store
+.vercel
+.playwright-cli
+migration-data/*.json
+migration-data/*.sql

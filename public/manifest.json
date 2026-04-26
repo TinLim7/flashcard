@@ -1,0 +1,25 @@
+{
+  "name": "Animal Farm Flashcards",
+  "short_name": "Flashcards",
+  "start_url": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "window-controls-overlay"],
+  "background_color": "#F6F8FA",
+  "theme_color": "#1F6FEB",
+  "lang": "zh-CN",
+  "description": "本地可运行、可配对、可同步演进的英语词汇记忆工具",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-maskable.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}
