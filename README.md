@@ -2,6 +2,8 @@
 
 一个基于艾宾浩斯遗忘曲线的英语词汇闪卡记忆工具。
 
+**在线体验**: https://animal-farm-vocab.pages.dev
+
 ## 背景
 
 这个项目的起点很简单：读完 *Animal Farm* 之后，想把里面的生词记住。
@@ -83,6 +85,33 @@ ephemeral,adj. 短暂的,Fame can be ephemeral.
 ### 下载模板
 
 导入页面提供「下载模板」按钮，可获取带示例数据的 CSV 模板文件。
+
+### 用 AI 生成词库
+
+手动整理单词太慢？可以把不会的单词丢给 AI，让它帮你生成标准格式的 CSV。
+
+**提示词示例：**
+
+```
+我把以下单词整理成了列表，请帮我生成一个 CSV 文件，包含以下列：
+front_text, back_text, phonetic, example_text, note, deck_name
+
+要求：
+- back_text 用中文释义，标注词性
+- phonetic 用国际音标
+- example_text 给一个地道的英文例句
+- note 里写句子意思、句中义、出处（如果是书里的句子）
+- deck_name 统一设为 "Animal Farm 词库"
+
+单词列表：
+ubiquitous
+ephemeral
+serendipity
+tyranny
+allegory
+```
+
+**推荐工具：** ChatGPT、Claude、Kimi、DeepSeek 等支持长文本的 AI 都可以。生成后直接复制 CSV 内容粘贴到导入页面即可。
 
 ## 学习流程
 
